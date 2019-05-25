@@ -1,0 +1,32 @@
+#ank{
+	text-align: center;
+}
+span{
+	color:red;
+}
+form{
+	max-width: 500px;
+}
+input,select,textarea{
+	padding-bottom: 10px;
+
+	border-radius: 20px;
+	color:rgb(0, 0, 0);
+	padding-left: 10px;
+}
+.button:hover{
+	border: 1px solid red;
+}
+form{
+	border: 1px solid rgb(104, 103, 103);
+	border-radius: 20px;
+	padding: 20px;
+	background-color: #ddd7d74f;
+}
+.button, input.button{
+	background: linear-gradient(to top, #7a7878, #f6f8f8);
+}
+textarea{
+	max-width: 100%;
+	resize: vertical;
+}

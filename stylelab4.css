@@ -1,0 +1,75 @@
+table,
+		th,
+		td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+	table{
+		width: 80%;
+	}
+		th,
+		td {
+			padding: 5px;
+			text-align: left;
+			
+		}
+th{background-color: rgb(255, 118, 38);}
+caption{
+	font-size: 30px;
+}
+tr:nth-child(even){
+background-color: rgb(165, 88, 236);
+}
+div h2:first-child{
+	border: 2px solid black;
+	border-radius: 25px;
+	width: 60%;
+	position: relative;
+	left:20%;
+	background-color:  rgb(131, 6, 131);
+	color:rgb(255, 230, 0);
+}
+.img{
+	width: 50%;
+	float: right;
+	border: 4px dashed rgb(48, 2, 255);
+	opacity: 0.5;
+}
+article{
+	background-color: rgba(160, 183, 247, 0.774);
+}
+div>ul>li:nth-child(2n)
+{
+	list-style-type: none;
+}
+#mark{
+	list-style-type:disc;
+	font-weight: bolder;
+}
+#mark li:not(:nth-child(1)){
+	margin-left: 25px; 
+	
+}
+#mark li{
+	float: left;
+}
+.div-outer{
+   width: 100%; 
+   float: left;
+}
+.scroll{
+	overflow: scroll;
+	position: relative;
+	float:left;
+	width:280px;
+	height: 100px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a.lin:visited { 
+	color:red;
+}
