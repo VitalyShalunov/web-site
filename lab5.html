@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Скейтбординг</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Скейтбординг как олимпийский вид спорта">
+    <meta name="keywords" content="Скейтбординг, спорт, доска, спорт">
+    <meta name="author" content="Шалунов Виталий">
+    <link rel="shortcut icon" href="img/1266667-skateboarding.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="stylelab5.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Скейтбординг</h1>
+        <hr>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Лаб. 1</a></li>
+            <li><a href="lab2.html">Лаб. 2</a></li>
+            <li><a href="lab41.html">Лаб. 4</a></li>
+            <li><a href="#">Лаб. 5</a></li>
+            <li><a href="lab6.html">Лаб. 6</a></li>
+            <li><a href="lab8.html">Лаб. 8</a></li>
+            <li><a href="lab9.html">Лаб. 9</a></li>
+            <li><a href="lab10.html">Лаб. 10</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+           
+            <form method="GET" id="form" onsubmit="createobject()">
+                <h2 id="ank">Анкета</h2>
+                <label for="one">Имя<span>*</span></label>: <input type="text" id="one" name="firstname" required><br>
+                <label for="two">Фамилия<span>*</span></label>: <input type="text" id="two" name="surname" required><br><br>
+                <fieldset>Пол: <br>
+                    <input type="radio" name="gender" value="male" checked required>Мужской<br>
+                    <input type="radio" name="gender" value="female" required> Женский<br>
+                </fieldset>
+                Дата рождения<span>*</span>:
+                <br>
+                <input type="date" id="hb" name="data" required /> <br>
+                <div id="divcourse">Курс обучения<span>*</span>: <input type="number" id="course" name="course" min=1 max=5 value="1"><br></div>
+                Форма обучения<span>*</span>: <select name="form of education">
+                    <option value="очно">очная</option>
+                    <option value="заочно">заочная</option>
+                </select>
+                <br>
+                <b>Вопросы по теме</b>
+                <br>
+                <label>Введите название доски для скейтбординга<span>*</span>: <input type="text" name="question1"
+                        required></label>
+                <br><br>
+                <fieldset>
+                    Как называется скейтборд с шестью колёсами?<span>*</span><br>
+                    <input type="radio" name="question2" value="Old school" checked>Old school<br>
+                    <input type="radio" name="question2" value="Фристайл">Фристайл<br>
+                    <input type="radio" name="question2" value="Современный скейтборд">Современный скейтборд<br>
+                    <input type="radio" name="question2" value="Фриборд">Фриборд<br>
+
+                </fieldset>
+                <br>
+                <fieldset id="check">
+
+                    Выберите признаки скейтборда Stowboard<span>*</span>:<br>
+                    <input type="checkbox" name="question3" value="1">2 колеса<br>
+                    <input type="checkbox" name="question3" value="2">деревянная доска<br>
+                    <input type="checkbox" name="question3" value="3">cкладывающаяся носовая и хвостовая части<br>
+                    <input type="checkbox" name="question3" value="4" >4 крупных колеса<br>
+                    <input type="checkbox" name="question3" value="5">металлический каркас<br>
+                    <input type="checkbox"  id="lastcheck" name="question3" value="6">компактный<br>
+
+                </fieldset>
+                <br>
+                Комментарий: <br><textarea rows="10" cols="45" id="ta" name="comment"
+                    placeholder="Введите комментарий..."></textarea><br>
+                Файл: <input type="file" id="f" name="Файл">
+
+                <p><input class="button" type="reset" value="Сбросить"> <input class="button"  type="submit"
+                        value="Отправить"></p>
+
+            </form>
+
+
+        </article>
+    </main>
+    <script src="js/lab5.js" charset="utf-8"></script>
+</body>
+
+</html>
