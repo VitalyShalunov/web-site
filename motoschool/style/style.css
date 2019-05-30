@@ -1,0 +1,200 @@
+body{
+    /* background-image: url(bike-black-honda-2317519.jpg);  */
+	
+	background-color: #0e0202d9; 
+    /* background-size: 100% auto;
+    background-attachment: scroll; */
+    
+
+}
+footer{
+	margin: 40px;
+	border: rgb(168, 3, 3) solid 2px;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: azure;
+	
+}
+
+		/* prices */
+		.pricingTable{
+			padding: 35px 20px;
+			margin: 0 10px;
+			background: #f4f4f4;
+			border-radius: 20px;
+			text-align: center;
+			box-shadow: 0 8px 6px -6px rgba(0,0,0,0.5);
+			overflow: hidden;
+			position: relative;
+			transition: all 0.3s ease 0s;
+		}
+		.pricingTable .pricingTable-header{
+			display: block;
+			padding: 10px 30px 20px;
+			margin-bottom: 20px;
+			border-bottom: 2px solid #000;
+			position: relative;
+		}
+		.pricingTable .pricingTable-header:before{
+			content: "";
+			width: 70px;
+			height: 70px;
+			border-radius: 50%;
+			background: #fff;
+			box-shadow: inset 1px -5px 1px rgba(0,0,0,0.2);
+			position: absolute;
+			top: 0;
+			left: -52px;
+			transform: rotate(-110deg);
+		}
+		.pricingTable .title{
+			margin: 0;
+			font-size: 25px;
+			font-weight: 700;
+			color: #ed0064;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+		.pricingTable .pricing-content{
+			padding-left: 15px;
+			margin: 0 0 20px 30%;
+			text-align: left;
+			position: relative;
+		}
+		.pricingTable .pricing-content:after{
+			content: "";
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			background: #fff;
+			box-shadow: inset 1px -5px 1px rgba(0,0,0,0.2);
+			position: absolute;
+			bottom: 0;
+			right: -45px;
+			transform: rotate(110deg);
+		}
+		.pricingTable .price-value{
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			background: #ed0064;
+			text-align: right;
+			position: absolute;
+			top: 0;
+			left: -100%;
+		}
+		.pricingTable .price-value:after{
+			content: "";
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #fff;
+			box-shadow: inset 1px -5px 1px rgba(0,0,0,0.2);
+			position: absolute;
+			bottom: 2px;
+			right: 45%;
+			transform: rotate(-110deg);
+		}
+		.pricingTable .amount{
+			display: inline-block;
+			font-size: 50px;
+			font-weight: 600;
+			color: #fff;
+			position: absolute;
+			top: 50%;
+			right: 20px;
+			transform: translateY(-50%);
+		}
+		.pricingTable .description{
+			font-size: 14px;
+			color: #4f4f4f;
+			line-height: 22px;
+			margin-bottom: 15px;
+		}
+		.pricingTable .pricing-content ul{
+			padding: 0;
+			margin: 0 0 0 15px;
+		}
+		.pricingTable .pricing-content ul li{
+			font-size: 15px;
+			color: #4f4f4f;
+			line-height: 30px;
+		}
+		.pricingTable .pricingTable-signup{
+			display: inline-block;
+			padding: 10px 25px;
+			background: #ed0064;
+			font-size: 17px;
+			font-weight: 700;
+			color: #fff;
+			letter-spacing: 1px;
+			border-radius: 30px 0 30px 30px;
+			transition: all 0.3s ease 0s;
+		}
+		.pricingTable:hover .pricingTable-signup{ border-radius: 30px 30px 30px 0; }
+		.pricingTable.yellow .title{ color: #e0ac1e; }
+		.pricingTable.yellow .price-value,
+		.pricingTable.yellow .pricingTable-signup{ background: #e0ac1e; }
+		.pricingTable.green .title{ color: #158163; }
+		.pricingTable.green .price-value,
+		.pricingTable.green .pricingTable-signup{ background: #158163; }
+		@media only screen and (max-width: 1199px) and (min-width: 991px){
+			.pricingTable .amount{ right: 5px; }
+		}
+		@media only screen and (max-width: 990px){
+			.pricingTable{ margin-bottom: 30px; }
+		}
+		@media only screen and (max-width: 360px){
+			.pricingTable .amount{ right: 5px; }
+		}
+	
+#head{
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    color:white;
+    border: #fffb00 solid 2px;
+    padding: 10px;
+    background-color: rgba(199, 19, 19, 0.815);
+    text-align: center;
+	font-size: 400%;
+	font-family: 'Raleway', sans-serif;
+}
+nav a{
+	color:rgb(1, 1, 146);
+	font-weight: bolder;
+	font-family: 'Noto Serif', serif;
+}
+#btn{
+	color:rgb(1, 1, 146);
+	font-weight: bolder;
+	font-family: 'Noto Serif', serif;
+}
+.lead{
+	color:white;
+	text-align: justify;
+	margin: 25px;
+	padding-top: 40px;
+	font-family: 'Acme', sans-serif;
+}
+#pus:hover{
+	border: #fffb00 dashed 2px;
+	margin: 20px;
+}
+.list-group-item:hover{
+	background-color: #e01c1cd9;
+}
+.navbar-brand:hover{
+	background-color: rgb(255, 103, 103);
+	border:black 1px solid;
+	border-radius: 5px;
+}
+.imgmot{
+	text-align: center;
+	margin-right: 100px;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 600;
+	color: #2f6428;
+}
